@@ -75,8 +75,6 @@ fn main() {
         map
     };
 
-    println!("{points:?}");
-
     let mut max_area = 0;
     let mut max_points = ((i64::MIN, i64::MIN), (i64::MIN, i64::MIN));
     for i in points.iter() {
